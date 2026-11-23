@@ -72,13 +72,7 @@ The ground pours on L1 and L4 are stitched to the L2 plane with vias on a 2.5 mm
 
 ## Project status
 
-The design is finished, but the board has **not been manufactured yet**. Nothing in this repository has been tested on real hardware. Once the boards arrive, my next steps are:
-
-1. Bring-up over SWD, then a BLE advertising test with sensor readings
-2. Measuring the antenna with a NanoVNA and tuning it on the C13/C14 pads if needed
-3. Measuring the sleep current and the current of one advertising event
-
-I will add the measurements and any corrections here.
+The design is finished, but the board has **not been manufactured yet**. Nothing in this repository has been tested on real hardware.
 
 ## Ordering from JLCPCB
 
