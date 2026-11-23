@@ -23,7 +23,7 @@ The second goal was low power. The board has no regulator and no power switch, a
 | Antenna | Inverted-F PCB antenna (TI SWRA117D) after a 0 Ω + 2 × DNP π network |
 | Debug | 10-pin 1.27 mm Cortex Debug connector (SWD + SWO), test pad for timing current measurements |
 | User I/O | One button, one LED |
-| PCB | 35 × 45 mm, 4 layers, JLC04161H-1080 stackup, ENIG |
+| PCB | 35 × 45 mm, 4 layers, JLC04161H-1080 stackup, ENIG, 2 × M2 mounting holes |
 
 ## Design notes
 
@@ -64,7 +64,7 @@ The hardest part of the layout was the left side of the QFN. Its 0.4 mm pitch pi
 
 The DECRF pin needs a connection to DECA on the other side of the chip, and on the top layer that path is blocked by the crystal traces. I copied the solution from Nordic's layout: the DECRF capacitor sits right at the pin, and a via behind it carries the connection on the bottom layer to the DECA side.
 
-The ground pours on L1 and L4 are stitched to the L2 plane with vias on a 2.5 mm grid, about λ/25 at 2.4 GHz. ERC and DRC, including schematic parity, finish with no violations. The reports are in `fab/`.
+The ground pours on L1 and L4 are stitched to the L2 plane with vias on a 2.5 mm grid, about λ/25 at 2.4 GHz. Two M2 mounting holes sit in opposite corners. The antenna corner has to stay free of metal and the coin-cell holder covers the fourth corner, so two diagonal holes were the practical choice. ERC and DRC, including schematic parity, finish with no violations. The reports are in `fab/`.
 
 ![Bottom view of the board](docs/img/render-bottom.png)
 
