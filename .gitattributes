@@ -1,0 +1,7 @@
+*.sh text eol=lf
+*.kicad_* text eol=lf
+*.step binary
+*.wrl binary
+*.zip binary
+*.png binary
+*.pdf binary

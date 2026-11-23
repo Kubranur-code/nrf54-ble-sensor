@@ -1,0 +1,13 @@
+# KiCad local/backup files
+*-backups/
+backup/
+fp-info-cache
+*.kicad_prl
+*.lck
+_autosave-*
+~*
+report.txt
+# Nordic reference layout (not redistributable; download from nordicsemi.com)
+ref/
+# generated outputs are rebuilt by scripts/export.sh, only the release zip is kept
+fab/gerbers/

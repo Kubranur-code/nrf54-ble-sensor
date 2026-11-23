@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "nrf54")(type "KiCad")(uri "${KIPRJMOD}/lib/nrf54.pretty")(options "")(descr "nRF54L15 QFN48 footprint, LCSC C42458750"))
+  (lib (name "sensors")(type "KiCad")(uri "${KIPRJMOD}/lib/sensors.pretty")(options "")(descr "LIS2DH12 LGA-12 footprint, LCSC C110926"))
+)

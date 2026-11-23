@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nrf54")(type "KiCad")(uri "${KIPRJMOD}/lib/nrf54.kicad_sym")(options "")(descr "nRF54L15 QFN48, LCSC C42458750 (easyeda2kicad)"))
+  (lib (name "sensors")(type "KiCad")(uri "${KIPRJMOD}/lib/sensors.kicad_sym")(options "")(descr "LIS2DH12TR LGA-12, LCSC C110926 (easyeda2kicad)"))
+)
