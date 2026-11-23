@@ -104,3 +104,9 @@ All outputs are generated with `kicad-cli` by running `bash scripts/export.sh`. 
 - Texas Instruments, SWRA117D, *2.4 GHz Inverted F Antenna*
 - Nordic DevZone discussions on ANT pin ground distance and harmonics
 - JLCPCB impedance-controlled stackups
+
+## License
+
+Copyright 2026 Kübranur Cici.
+
+The hardware design files in this repository are licensed under the [CERN Open Hardware Licence Version 2 – Strongly Reciprocal](LICENSE) (CERN-OHL-S-2.0). The 3D models in `lib/parts.3dshapes` and the Nordic reference material referred to above belong to their respective owners and are not covered by this licence.
