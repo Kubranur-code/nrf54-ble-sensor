@@ -5,3 +5,9 @@
 *.zip binary
 *.png binary
 *.pdf binary
+
+# Language stats
+*.kicad_sch linguist-detectable
+*.kicad_pcb linguist-detectable
+*.kicad_mod linguist-detectable
+scripts/*.sh linguist-detectable=false
